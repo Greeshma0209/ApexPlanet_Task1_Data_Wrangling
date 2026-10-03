@@ -1,0 +1,14 @@
+Column Name,Description,Data Type,Business Relevance
+Order_ID,Unique identification number assigned to each order.,Text,Helps identify and track individual orders.
+Order_Date,Date on which the order was placed.,Date,Helps analyze sales trends over time.
+Customer_ID,Unique identification number assigned to each customer.,Text,Helps identify and analyze individual customers.
+Customer_Name,Name of the customer associated with the order.,Text,Helps identify the customer associated with an order.
+Age,Age of the customer.,Numeric,Helps analyze customer demographics and age-based purchasing patterns.
+Gender,Gender of the customer.,Categorical,Helps compare customer behavior across gender categories.
+City,City associated with the customer or order.,Categorical,Helps analyze sales and customer distribution by location.
+Product,Product purchased by the customer.,Categorical,Helps analyze product-level sales and purchasing patterns.
+Category,Category of the product purchased.,Categorical,Helps analyze sales performance across product categories.
+Quantity,Number of units purchased in an order.,Numeric,Helps analyze sales volume and customer purchase quantity.
+Unit_Price,Price of one unit of the product.,Numeric,Helps analyze product pricing and sales value.
+Total_Sales,Total sales value generated from an order.,Numeric,Helps measure revenue and overall sales performance.
+Sales_Outlier,Indicates whether the Total_Sales value is statistically unusual based on the IQR method.,Categorical,Helps identify unusually high or low sales transactions for further analysis.
